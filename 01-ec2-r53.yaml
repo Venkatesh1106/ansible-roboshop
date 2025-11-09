@@ -7,11 +7,11 @@
     zone_id: "Z029822632UATB6PPFGA9" # replace with your ID
     domain_name: "devops86s.site"
     # we can pass instances through command line using -e
-    # instances: 
-    # - mongodb
-    # - redis
-    # - mysql
-    # - rabbitmq
+    instances: 
+    - mongodb
+    - redis
+    - mysql
+    - rabbitmq
   tasks:
   - name: create ec2 instance
     amazon.aws.ec2_instance:
