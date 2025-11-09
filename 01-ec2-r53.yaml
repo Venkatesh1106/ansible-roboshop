@@ -7,8 +7,8 @@
     zone_id: "Z029822632UATB6PPFGA9" # replace with your ID
     domain_name: "devops86s.site"
     # we can pass instances through command line using -e
-    instances: 
-    - mongodb
+    # instances: 
+    # - mongodb
     # - redis
     # - mysql
     # - rabbitmq
